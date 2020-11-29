@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Auxiliatura</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<font FACE="impact" color="lime">
+	<header >Practica de Auxiliatura INF-113</header></font>
+	<section>
+		<div class="titulo">
+			<font color ="Darkblue">
+			<p><strong>1. Dado un numero de digitos cualquira hayar el mayor,</p>
+		 <p>el menor numero y el numero de moda.</strong></p></font>
+		</div>
+			<div class="box">
+			<form>
+				<font color ="red" face="Monotype Corsiva" size="4">
+				<label><strong>Numero:  </strong></label>
+				<input class="border" type="number" id="numero" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="menor();">Menor</button>
+				<button class="btn btn-green" type="button" onclick="mayor();">Mayor</button>
+				<button class="btn btn-green" type="button" onclick="Numero_Moderno();">Moda</button>
+
+				<div align="left" class="minibox">
+					<p><strong>Menor:  <span id="resmenor"></span></strong></p>
+					<p><strong>Mayor:  <span id="resmayor"></span></strong></p>
+					<p><strong>Moda:  <span id="resmoderno"></span></strong></p>
+				</div>
+			</form>
+		</div>
+
+		<div class="titulo">
+			<font color="Darkblue" size="4">
+			<p><strong>2. Dado un numero que tenga un numero de digitos Mayor o igual a 4,rotar los numeros pares hacia la derecha.
+			</strong></p></font>
+		</div>
+
+		<div class="box">
+			
+			<form>
+				<font color ="red" face="Monotype Corsiva" size="4">
+				<label><strong>Numero:  </strong></label>
+				<input class="border" type="Numero1" id="numero0" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button></font>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="rotar();">Rotar</button>
+
+				<div align="left" class="minibox">
+					<p><strong>Número Rotado es:<span id="rotado"></span></strong></p>
+				</div>
+			</form>
+		</div>
+
+		<div class="titulo">
+			<font color="Darkblue" size="4">
+			<p><strong>3.Realizar el Triangulo de Pascal.</strong></p></font>
+		</div>
+
+		<div class="box">
+			
+			<form>
+				<font color ="red" face="Monotype Corsiva" size="4">
+				<label><strong>Valor de N:  </strong></label>
+				<input class="border" type="Numero2" id="filas" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button></font>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="triangulo();">Triangulo</button>
+
+				<div align="center" class="">
+					<p><strong>1<br><span id="fila1"></span><br><span id="fila2"></span><br><span id="fila3"></span><br><span id="fila4"></span><br><span id="fila5"></span><br><span id="fila6"></span></strong></p>
+					
+				</div>
+				
+			</form>
+		</div>
+	</section>
+	<script type="text/javascript" src="Script.js">
+	</script>
+
+	<footer>
+ <center><font color="blue" FACE="Lucida Calligraphy"><h2> © 2020 Elaborado por:Katherine Quispe Quispe </h2></font></center>
+</footer>
+
+</body>
+</html>
